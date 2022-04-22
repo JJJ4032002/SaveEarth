@@ -3,7 +3,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat";
-  border: 1px solid blue;
+}
+
+.hero {
+  width: 85%;
+  margin: 0 auto;
 }
 
 nav {
@@ -25,6 +29,8 @@ img {
   object-fit: cover;
   height: 100%;
   display: block;
+  border-radius: 60px 15px 15px;
+  border: 10px white solid;
 }
 a {
   color: #0e421c;
@@ -32,11 +38,12 @@ a {
 }
 
 .header {
-  background-color: #fbd9b0;
+  background-image: linear-gradient(45deg, white, #ffe0ba, white);
 }
 
 .login,
-.heroSecondary {
+.heroSecondary,
+.heroPrimary {
   padding: 0.5em 1.5em;
   background-color: transparent;
   border: 0.1em solid #0e421c;
@@ -46,6 +53,7 @@ a {
 }
 .heroTitle {
   font-size: clamp(1rem, -2rem + 13.3333vw, 5rem);
+  color: #0e421c;
 }
 .heroText {
   margin-top: 1em;
@@ -68,4 +76,7 @@ a {
 
 .rightContent {
   width: 35%;
+}
+.middleContent {
+  padding-top: 2em;
 }

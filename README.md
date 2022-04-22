@@ -1,2 +1,0 @@
-# SaveEarth
-Save Earth Project
